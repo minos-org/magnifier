@@ -8,14 +8,23 @@
 
 ## Quick start
 
+### On Ubuntu (only LTS releases)
+
+1. Set up the minos archive:
    ```
    $ sudo add-apt-repository ppa:minos-archive/main
-   $ sudo apt-get update
-   $ sudo apt-get install magnifier
    ```
+   
+2. Install:
+   
+   ```   
+   $ sudo apt-get update && sudo apt-get install magnifier
+   ```
+   
+3. Enjoy ☺!
 
-## Usage
+### On other Linux distributions
 
-   ```
-   magnifier
-   ```
+1. Copy the binary `cp magnifier${arch}.bin /usr/local/bin/magnifier`
+
+2. Launch `magnifier`

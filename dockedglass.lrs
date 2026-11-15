@@ -1,0 +1,15 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TDockedGlassWindow','FORMDATA',[
+  'TPF0'#18'TDockedGlassWindow'#17'DockedGlassWindow'#4'Left'#3#156#1#6'Height'
+  +#3#240#0#3'Top'#3#250#0#5'Width'#3'@'#1#10'AlphaBlend'#9#7'Caption'#6#12'Doc'
+  +'ked Glass'#12'ClientHeight'#3#240#0#11'ClientWidth'#3'@'#1#10'LCLVersion'#6
+  +#7'4.4.0.0'#6'OnHide'#7#8'FormHide'#8'OnResize'#7#10'FormResize'#6'OnShow'#7
+  +#8'FormShow'#0#6'TImage'#5'Image'#4'Left'#2#0#6'Height'#3#240#0#3'Top'#2#0#5
+  +'Width'#3'@'#1#5'Align'#7#8'alClient'#8'AutoSize'#9#11'OnMouseDown'#7#14'Ima'
+  +'geMouseDown'#11'OnMouseMove'#7#14'ImageMouseMove'#9'OnMouseUp'#7#12'ImageMo'
+  +'useUp'#0#0#10'TPopupMenu'#15'DockedPopupMenu'#4'Left'#2'~'#3'Top'#2'N'#0#9
+  +'TMenuItem'#15'BordersMenuItem'#7'Caption'#6#12'Show borders'#7'Checked'#9#7
+  +'Default'#9#7'OnClick'#7#20'BordersMenuItemClick'#0#0#9'TMenuItem'#12'HideMe'
+  +'nuItem'#7'Caption'#6#4'Hide'#7'OnClick'#7#17'HideMenuItemClick'#0#0#0#0
+]);

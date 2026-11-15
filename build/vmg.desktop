@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=VMG
+Comment=Virtual Magnifying Glass
+Exec=/usr/bin/vmg
+Icon=/usr/share/magnifier/icon3.png
+Type=Application
+Categories=Utility;Accessibility;

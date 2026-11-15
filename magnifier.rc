@@ -1,0 +1,73 @@
+
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICON2               ICON                    "icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+IDB_TOPLEFT             BITMAP                  "topleft.bmp"
+IDB_TOPRIGHT            BITMAP                  "topright.bmp"
+IDB_BOTTOMLEFT          BITMAP                  "bottomleft.bmp"
+IDB_BOTTOMRIGHT         BITMAP                  "bottomright.bmp"
+IDB_TOP                 BITMAP                  "top.bmp"
+IDB_LEFT                BITMAP                  "left.bmp"
+IDB_BOTTOM              BITMAP                  "bottom.bmp"
+IDB_RIGHT               BITMAP                  "right.bmp"
+
+IDB_CECAE               BITMAP                  "cecae.bmp"
+IDB_FEUSP               BITMAP                  "feusp.bmp"
+IDB_VMG                 BITMAP                  "vmg.bmp"
+IDB_LUPA                BITMAP                  "lupa.bmp"
+IDB_USPLEGAL            BITMAP                  "usplegal.bmp"
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,3,5,0
+ PRODUCTVERSION 2,3,5,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "http://magnifier.sourceforge.net"
+            VALUE "CompanyName", "open source"
+            VALUE "FileDescription", "Virtual Magnifying Glass"
+            VALUE "FileVersion", "2.35"
+            VALUE "InternalName", "Magnifier"
+            VALUE "LegalCopyright", "Copyright © 1998 - 2005 Harri Pyy, Chris O'Donnell"
+            VALUE "LegalTrademarks", "Virtual Magnifying Glass"
+            VALUE "OriginalFilename", "Magnifying Glass.exe"
+            VALUE "ProductName", "Virtual Magnifying Glass"
+            VALUE "ProductVersion", "2.35"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+

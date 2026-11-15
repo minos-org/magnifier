@@ -1,0 +1,9 @@
+v3.4
+
+* New Windows Dynamic Mode which now works under any machine without the need for a special video card. Works under Windows 2000+ and doesn't require DirectX anymore.
+* Various fixes for the normal mode
+* Plugin selection disabled for this release, is fixed in the dynamic mode
+* Improved Mac and Linux versions
+
+Translations:
+* New Japanese and Turkish translations

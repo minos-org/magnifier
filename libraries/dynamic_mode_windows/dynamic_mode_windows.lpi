@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <UseXPManifest Value="True"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <StringTable Comments="" CompanyName="" FileDescription="" FileVersion="0.0.0.0" InternalName="" LegalCopyright="" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="plugininfo"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="17" Y="49"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="110"/>
+        <CursorPos X="23" Y="129"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\app.pas"/>
+        <UnitName Value="app"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="178"/>
+        <CursorPos X="1" Y="190"/>
+        <SyntaxHighlighter Value="FreePascal"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Text"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="138" Column="14" TopLine="124"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="35" Column="16" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="40" Column="14" TopLine="21"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <Caret Line="53" Column="20" TopLine="31"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <Caret Line="48" Column="23" TopLine="33"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="39" Column="17" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <Caret Line="15" Column="24" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="39" Column="17" TopLine="24"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="37" Column="12" TopLine="18"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position10>
+      <Position11>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="55" Column="26" TopLine="27"/>
+      </Position11>
+      <Position12>
+        <Filename Value="dynamic_mode_windows.dpr"/>
+        <Caret Line="90" Column="3" TopLine="86"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\app.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="dynamic_mode_windows.dll"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <OtherUnitFiles Value="..\..\"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <ExecutableType Value="Library"/>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

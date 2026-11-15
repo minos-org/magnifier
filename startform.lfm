@@ -1,0 +1,53 @@
+object vStartWindow: TvStartWindow
+  Left = 320
+  Height = 257
+  Top = 131
+  Width = 320
+  Caption = 'Virtual Magnifying Glass'
+  ClientHeight = 257
+  ClientWidth = 320
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.3'
+  object Label1: TLabel
+    Left = 0
+    Height = 40
+    Top = 8
+    Width = 320
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Virtual Magnifying Glass'
+    Font.Height = -27
+    ParentColor = False
+    ParentFont = False
+  end
+  object labelStartWindow: TLabel
+    Left = 8
+    Height = 192
+    Top = 56
+    Width = 306
+    AutoSize = False
+    Caption = 'labelStartWindow'
+    ParentColor = False
+    WordWrap = True
+  end
+  object buttonClassic: TBitBtn
+    Left = 24
+    Height = 30
+    Top = 216
+    Width = 107
+    Caption = 'Classic Mode'
+    OnClick = buttonClassicClick
+    TabOrder = 0
+  end
+  object buttonDynamic: TBitBtn
+    Left = 184
+    Height = 30
+    Top = 216
+    Width = 107
+    Caption = 'Dynamic Mode'
+    OnClick = buttonDynamicClick
+    TabOrder = 1
+  end
+end

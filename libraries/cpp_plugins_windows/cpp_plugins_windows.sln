@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_mode_compatible", "dynamic_mode_compatible\dynamic_mode_compatible.vcproj", "{DCE09E4E-FC72-488F-9155-D201F2CE3E6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcproj", "{682905E9-4172-4DD4-84CC-652A092D9F0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCE09E4E-FC72-488F-9155-D201F2CE3E6B} = {DCE09E4E-FC72-488F-9155-D201F2CE3E6B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE09E4E-FC72-488F-9155-D201F2CE3E6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCE09E4E-FC72-488F-9155-D201F2CE3E6B}.Debug|Win32.Build.0 = Debug|Win32
+		{DCE09E4E-FC72-488F-9155-D201F2CE3E6B}.Release|Win32.ActiveCfg = Release|Win32
+		{DCE09E4E-FC72-488F-9155-D201F2CE3E6B}.Release|Win32.Build.0 = Release|Win32
+		{682905E9-4172-4DD4-84CC-652A092D9F0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{682905E9-4172-4DD4-84CC-652A092D9F0D}.Debug|Win32.Build.0 = Debug|Win32
+		{682905E9-4172-4DD4-84CC-652A092D9F0D}.Release|Win32.ActiveCfg = Release|Win32
+		{682905E9-4172-4DD4-84CC-652A092D9F0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

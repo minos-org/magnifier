@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="videocard_checker.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="videocard_checker"/>
+        <CursorPos X="11" Y="33"/>
+        <TopLine Value="21"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\ddraw\src\mosquito\mosquito.cpp"/>
+        <CursorPos X="10" Y="68"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="C++"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\DirectX\FPC_DirectX92\DirectDraw.pas"/>
+        <UnitName Value="DirectDraw"/>
+        <CursorPos X="9" Y="5309"/>
+        <TopLine Value="5299"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\plugininfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="plugininfo"/>
+        <UsageCount Value="20"/>
+        <SyntaxHighlighter Value="Text"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="1" HistoryIndex="0">
+      <Position1>
+        <Filename Value="videocard_checker.dpr"/>
+        <Caret Line="172" Column="23" TopLine="161"/>
+      </Position1>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="C:\Programas\DirectX\FPC_DirectX92\"/>
+      <OtherUnitFiles Value="C:\Programas\DirectX\FPC_DirectX92\;..\..\"/>
+      <SrcPath Value="C:\Programas\DirectX\FPC_DirectX92\;..\..\"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <ExecutableType Value="Library"/>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

@@ -1,6 +1,6 @@
 ## magnifier
 
-[magnifier](https://github.com/minos-org/magnifier/) is a free, open source, cross-platform screen magnification tool. This is a freeze version, refer to [sourceforge](http://magnifier.sourceforge.net/) for the original one.
+[magnifier](https://github.com/minos-org/magnifier/) is a free, open source, cross-platform screen magnification tool. This is the source of Virtual Magnifying Glass, frozen at svn r254 of [sourceforge](http://magnifier.sourceforge.net/); minos builds it with Free Pascal and Lazarus ([magnifier-deb](https://github.com/minos-org/magnifier-deb) carries the packaging and its patches).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/minos-org/magnifier/master/magnifier.png" alt="magnifier"/>
@@ -23,8 +23,10 @@
    
 3. Enjoy ☺!
 
-### On other Linux distributions
+### From source
 
-1. Copy the binary `cp magnifier${arch}.bin /usr/local/bin/magnifier`
+1. Install Free Pascal and Lazarus (`fpc lcl-utils lcl-units lcl-gtk2 libgtk2.0-dev` on Ubuntu)
 
-2. Launch `magnifier`
+2. Build: `lazbuild --build-all --ws=gtk2 magnifier.lpi`
+
+3. Launch `./magnifier`

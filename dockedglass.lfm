@@ -1,0 +1,57 @@
+object DockedGlassWindow: TDockedGlassWindow
+  Left = 412
+  Height = 292
+  Top = 250
+  Width = 390
+  AlphaBlend = True
+  Caption = 'Docked Glass'
+  ClientHeight = 292
+  ClientWidth = 390
+  DesignTimePPI = 117
+  LCLVersion = '4.8.0.0'
+  OnChangeBounds = FormChangeBounds
+  OnHide = FormHide
+  OnResize = FormResize
+  OnShow = FormShow
+  object Image: TImage
+    Left = 0
+    Height = 292
+    Top = 0
+    Width = 390
+    Align = alClient
+    AutoSize = True
+    OnMouseDown = ImageMouseDown
+    OnMouseMove = ImageMouseMove
+    OnMouseUp = ImageMouseUp
+  end
+  object DockedPopupMenu: TPopupMenu
+    Left = 154
+    Top = 96
+    object BordersMenuItem: TMenuItem
+      Caption = 'Show borders'
+      Checked = True
+      Default = True
+      OnClick = BordersMenuItemClick
+    end
+    object IncreaseWidthMenuItem: TMenuItem
+      Caption = 'Increase width'
+      OnClick = IncreaseWidthMenuItemClick
+    end
+    object DecreaseWidthMenuItem: TMenuItem
+      Caption = 'Decrease width'
+      OnClick = DecreaseWidthMenuItemClick
+    end
+    object IncreaseHeightMenuItem: TMenuItem
+      Caption = 'Increase height'
+      OnClick = IncreaseHeightMenuItemClick
+    end
+    object DecreaseHeightMenuItem: TMenuItem
+      Caption = 'Decrease height'
+      OnClick = DecreaseHeightMenuItemClick
+    end
+    object HideMenuItem: TMenuItem
+      Caption = 'Hide'
+      OnClick = HideMenuItemClick
+    end
+  end
+end
